@@ -19,6 +19,7 @@
  window.alert(b!=b) //f
  window.alert(a+=20>b) //v
  window.alert(a-=10>b) //f
+ document.write(a**=30)
 
  
 

@@ -11,7 +11,7 @@
  var a = 10
  var b = 20
 
- window.alert(a<b) //v
+ window.alert(a<b) || //v
  window.alert(a>b) //f
  window.alert(a>=a) //v
  window.alert(a<=a) //v
@@ -20,6 +20,8 @@
  window.alert(a+=20>b) //v
  window.alert(a-=10>b) //f
  document.write(a**=30)
+
+ //operadores  logicos
 
  
 

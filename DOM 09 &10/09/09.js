@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', function() {
   
   window.addEventListener('DOMContentLoaded', function() {
     document.body.style.backgroundColor = "black";
-    document.body.style.color = "white"; // Define a cor do texto como branco
+    document.body.style.color = "white"
   });
   
   window.addEventListener('DOMContentLoaded', function() {

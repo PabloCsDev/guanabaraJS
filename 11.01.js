@@ -32,6 +32,7 @@ txtpais.addEventListener('keydown', function(event) {
     <script src="countries.js"></script> <!-- Inclua o arquivo da biblioteca countries.js -->
 </head>
 <body>
+
     <h1>Country System</h1>
     <div id="res"></div>
     <label for="selPais">Selecione o seu país:</label>

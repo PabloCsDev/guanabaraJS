@@ -1,19 +1,11 @@
-var agora = new Date()  
-var diaSem = agora.getDay() 
-/* DIAS DA SEMANA
-     0= DOMINGO
-     1= SEGUNDA
-     2= TERÇA 
-     3= QUARTA
-     4= QUINTA
-     5= SEXTA
-     6= SABADO
-*/
-console.log(diaSem)
+var numero = prompt("Digite um número para ser multiplicado por 2:");
 
-switch (diaSem) {
-    case 0:
-        console.log('Domingo')
-        break
-    
+numero = parseFloat(numero);
+
+if (isNaN(numero)) {
+  document.write("Você não digitou um número válido.");
+} else {
+  var resposta = numero * 2;
+
+  document.write("A resposta do sistema é: " + resposta);
 }
